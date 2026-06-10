@@ -1,6 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace CGRasterization.App.ViewModels.Abstractions;
+namespace CG3DGraphics.App.ViewModels.Abstractions;
 
 public abstract class ViewModelBase : ObservableObject
 {

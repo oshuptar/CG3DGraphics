@@ -1,7 +1,7 @@
-﻿using Avalonia;
-using System;
+﻿using System;
+using Avalonia;
 
-namespace CGRasterization.App;
+namespace CG3DGraphics.App;
 
 class Program
 {

@@ -1,9 +1,9 @@
 using Avalonia;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
-using CGRasterization.App.Buffers;
+using CG3DGraphics.App.Buffers;
 
-namespace CGRasterization.App.Canvas;
+namespace CG3DGraphics.App.Canvas;
 
 public class Canvas
 {

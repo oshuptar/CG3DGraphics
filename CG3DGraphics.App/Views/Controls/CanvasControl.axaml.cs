@@ -1,9 +1,6 @@
-using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Markup.Xaml;
-using CGRasterization.App.ViewModels;
 
-namespace CGRasterization.App.Views.Controls;
+namespace CG3DGraphics.App.Views.Controls;
 
 public partial class CanvasControl : UserControl
 {

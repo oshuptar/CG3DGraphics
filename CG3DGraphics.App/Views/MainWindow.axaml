@@ -2,10 +2,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:CGRasterization.App.ViewModels"
-        xmlns:controls="clr-namespace:CGRasterization.App.Views.Controls"
+        xmlns:controls="clr-namespace:CG3DGraphics.App.Views.Controls"
+        xmlns:vm="clr-namespace:CG3DGraphics.App.ViewModels"
+        xmlns:controls1="clr-namespace:CG3DGraphics.App.Views.Controls"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="CGRasterization.App.Views.MainWindow"
+        x:Class="CG3DGraphics.App.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Title="Rasterization"
         RequestedThemeVariant="Light">
@@ -15,6 +16,6 @@
                 BorderBrush="#D0D7DE"
                 Background="#F8F9FB"
                 BoxShadow="0 4 14 0 #22000000">
-                <controls:CanvasControl DataContext="{Binding CanvasControlViewModel}"/>
+                <controls1:CanvasControl DataContext="{Binding CanvasControlViewModel}"/>
         </Border>
 </Window>

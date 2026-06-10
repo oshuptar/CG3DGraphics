@@ -1,7 +1,7 @@
 using Avalonia.Controls;
-using CGRasterization.App.ViewModels;
+using CG3DGraphics.App.ViewModels;
 
-namespace CGRasterization.App.Views;
+namespace CG3DGraphics.App.Views;
 
 public partial class MainWindow : Window
 {

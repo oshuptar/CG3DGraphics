@@ -5,7 +5,7 @@ using Avalonia;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
 
-namespace CGRasterization.App.Buffers;
+namespace CG3DGraphics.App.Buffers;
 public sealed class DirectBitmap
 {
     public PixelFormat PixelFormat { get; }

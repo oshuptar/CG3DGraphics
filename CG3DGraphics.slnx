@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CG3DGraphics.App/CG3DGraphics.App.csproj" />
+  <Project Path="CG3DGraphics.Core/CG3DGraphics.Core.csproj" />
+</Solution>

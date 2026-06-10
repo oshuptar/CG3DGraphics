@@ -1,6 +1,6 @@
-using CGRasterization.App.ViewModels.Abstractions;
+using CG3DGraphics.App.ViewModels.Abstractions;
 
-namespace CGRasterization.App.ViewModels;
+namespace CG3DGraphics.App.ViewModels;
 
 public class CanvasControlViewModel : ViewModelBase
 {
