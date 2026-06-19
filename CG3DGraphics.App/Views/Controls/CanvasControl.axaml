@@ -6,8 +6,18 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:DataType="vm:CanvasControlViewModel"
              x:Class="CG3DGraphics.App.Views.Controls.CanvasControl">
-    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-        <Image Source="{Binding Canvas.ImageSource}"
-               Stretch="None"/>
-    </ScrollViewer>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left" Width="150" Margin="8" Spacing="6">
+            <TextBlock Text="Camera" FontWeight="Bold"/>
+            <Button Content="Rotate Up" Command="{Binding RotateUpCommand}" HorizontalAlignment="Stretch"/>
+            <Button Content="Rotate Down" Command="{Binding RotateDownCommand}" HorizontalAlignment="Stretch"/>
+            <Button Content="Rotate Left" Command="{Binding RotateLeftCommand}" HorizontalAlignment="Stretch"/>
+            <Button Content="Rotate Right" Command="{Binding RotateRightCommand}" HorizontalAlignment="Stretch"/>
+            <Button Content="Zoom In" Command="{Binding ZoomInCommand}" HorizontalAlignment="Stretch"/>
+            <Button Content="Zoom Out" Command="{Binding ZoomOutCommand}" HorizontalAlignment="Stretch"/>
+        </StackPanel>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Image Source="{Binding Canvas.ImageSource}" Stretch="None"/>
+        </ScrollViewer>
+    </DockPanel>
 </UserControl>

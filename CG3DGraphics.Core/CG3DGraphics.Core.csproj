@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\..\CGRasterization\CGRasterization.Core\CGRasterization.Core.csproj" />
+    </ItemGroup>
+
 </Project>
